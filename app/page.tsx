@@ -1,12 +1,15 @@
 import React from 'react';
 import Link from 'next/link';
+import Nav from '@/components/nav';
+import Hero from '@/components/hero';
 
 const HomePage: React.FC = () => {
   return (
-    <div className='container max-w-none border border-white h-screen w-screen'>
-      <nav className='bg-blue-500 p-4'>
-        Logo
-      </nav>
+    <div className='container bg-white text-grey-800 max-w-none h-screen w-screen'>
+      <Nav />
+      <Hero />
+
+        
     </div>
   );
 };
